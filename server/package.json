@@ -1,0 +1,35 @@
+{
+  "name": "hmps-school-api",
+  "version": "1.0.0",
+  "description": "HMPS Azamgarh School API",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "nodemon server.js",
+    "setup": "node seeder.js -i",
+    "clear-data": "node seeder.js -d",
+    "build-client": "cd .. && npm run build",
+    "postinstall": "cd .. && npm install && npm install cross-env --save",
+    "production": "npm run postinstall && npm run build-client && cross-env NODE_ENV=production node server.js",
+    "init-bot": "node scripts/initBotDirectories.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "pdfkit": "^0.13.0",
+    "discord.js": "^14.14.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
