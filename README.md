@@ -1,4 +1,4 @@
-# HMPS Azamgarh School Management System
+School Management System
 
 This project combines a React frontend and Node.js/Express backend into a single deployable application.
 
@@ -160,9 +160,3 @@ For platforms like Heroku, Railway, or Render:
 ## License
 
 This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- HMPS Azamgarh School Administration
-- All contributors and developers
-- Open source libraries and tools used in this project 
