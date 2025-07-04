@@ -35,8 +35,8 @@ This will:
 1. **Clone the repository**
 
 ```bash
-git clone <repository-url>
-cd project
+git clone https://github.com/RealAngry/Schoolweb
+cd Schoolweb
 ```
 
 2. **Install dependencies for both frontend and backend**
